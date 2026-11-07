@@ -169,13 +169,20 @@ a {
 
 .nav-link {
 
-    color: rgba(255,255,255,.8) !important;
+    /* color: rgba(255,255,255,.8) !important; */
+    color:white;
 
     font-size: 13px;
 
     font-weight: 600;
 
     padding: 20px 12px !important;
+
+}
+
+.navbar-nav .nav-link.show {
+
+    color: white !important;
 
 }
 
@@ -264,7 +271,7 @@ a {
 
 .luxury-dropdown .dropdown-item {
 
-    color: #bbb;
+    color: white;
 
     font-size: 12px;
 
@@ -1421,7 +1428,7 @@ a {
 
     max-width: 350px;
 
-    color: #777;
+    color: white;
 
     font-size: 13px;
 
@@ -1457,7 +1464,7 @@ a {
 
     align-items: center;
 
-    color: #777;
+    color: white;
 
 }
 
@@ -1486,7 +1493,7 @@ a {
 
     display: block;
 
-    color: #777;
+    color: white;
 
     font-size: 12px;
 
@@ -1504,7 +1511,7 @@ a {
 
 .luxury-footer p {
 
-    color: #777;
+    color: white;
 
     font-size: 12px;
 
@@ -1532,7 +1539,7 @@ a {
 
     display: flex;
 
-    color: #555;
+    color: white;
 
     font-size: 10px;
 
