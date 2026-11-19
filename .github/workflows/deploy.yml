@@ -39,7 +39,7 @@ jobs:
         run: |
           ssh -o BatchMode=yes \
             -o StrictHostKeyChecking=yes \
-            "$USER@$HOST" 'bash -se' <<'EOF'
+            suratnxdeploy@72.62.125.147 'bash -se' <<'EOF'
           set -e
           cd /var/www/suratnx
 
